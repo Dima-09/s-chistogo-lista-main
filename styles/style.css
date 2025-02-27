@@ -161,6 +161,29 @@ blockquote {
 
 .how-to {
   padding: 40px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.cards-list {
+  list-style: none;
+}
+
+.card {
+  padding: 20px;
+  background-color: #343434;
+  border-radius: 30px;
+}
+
+.card__author-photo {
+  width: 100px;
+}
+
+.card__author-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
 }
 
 .footer {
