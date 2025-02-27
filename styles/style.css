@@ -103,8 +103,60 @@ blockquote {
   padding: 30px 20px 38px;
 }
 
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #CCCCCC;
+}
+
+.intro__title {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.intro__date {
+  font-size: 16px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.intro__main-text p {
+  margin-top: 24px;
+}
+
 .reasons {
   padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.content-section__subtitle {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500px;
+  letter-spacing: 1.15;
+  line-height: 1.15;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-left: 20px;
+}
+
+.content-section__introduction {
+  line-height: 27px;
+}
+
+.content-section__list-item {
+  line-height: 21.6px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
 }
 
 .how-to {
